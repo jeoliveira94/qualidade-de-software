@@ -1,0 +1,16 @@
+D:\joseeduardo\ruemmai\UFMA\2020.2\Qualidade de Software\QualidadeDeSoftware\QualidadeDeSoftware\bin\Debug\net5.0\QualidadeDeSoftware.exe
+D:\joseeduardo\ruemmai\UFMA\2020.2\Qualidade de Software\QualidadeDeSoftware\QualidadeDeSoftware\bin\Debug\net5.0\QualidadeDeSoftware.deps.json
+D:\joseeduardo\ruemmai\UFMA\2020.2\Qualidade de Software\QualidadeDeSoftware\QualidadeDeSoftware\bin\Debug\net5.0\QualidadeDeSoftware.runtimeconfig.json
+D:\joseeduardo\ruemmai\UFMA\2020.2\Qualidade de Software\QualidadeDeSoftware\QualidadeDeSoftware\bin\Debug\net5.0\QualidadeDeSoftware.runtimeconfig.dev.json
+D:\joseeduardo\ruemmai\UFMA\2020.2\Qualidade de Software\QualidadeDeSoftware\QualidadeDeSoftware\bin\Debug\net5.0\QualidadeDeSoftware.dll
+D:\joseeduardo\ruemmai\UFMA\2020.2\Qualidade de Software\QualidadeDeSoftware\QualidadeDeSoftware\bin\Debug\net5.0\ref\QualidadeDeSoftware.dll
+D:\joseeduardo\ruemmai\UFMA\2020.2\Qualidade de Software\QualidadeDeSoftware\QualidadeDeSoftware\bin\Debug\net5.0\QualidadeDeSoftware.pdb
+D:\joseeduardo\ruemmai\UFMA\2020.2\Qualidade de Software\QualidadeDeSoftware\QualidadeDeSoftware\obj\Debug\net5.0\QualidadeDeSoftware.csprojAssemblyReference.cache
+D:\joseeduardo\ruemmai\UFMA\2020.2\Qualidade de Software\QualidadeDeSoftware\QualidadeDeSoftware\obj\Debug\net5.0\QualidadeDeSoftware.GeneratedMSBuildEditorConfig.editorconfig
+D:\joseeduardo\ruemmai\UFMA\2020.2\Qualidade de Software\QualidadeDeSoftware\QualidadeDeSoftware\obj\Debug\net5.0\QualidadeDeSoftware.AssemblyInfoInputs.cache
+D:\joseeduardo\ruemmai\UFMA\2020.2\Qualidade de Software\QualidadeDeSoftware\QualidadeDeSoftware\obj\Debug\net5.0\QualidadeDeSoftware.AssemblyInfo.cs
+D:\joseeduardo\ruemmai\UFMA\2020.2\Qualidade de Software\QualidadeDeSoftware\QualidadeDeSoftware\obj\Debug\net5.0\QualidadeDeSoftware.csproj.CoreCompileInputs.cache
+D:\joseeduardo\ruemmai\UFMA\2020.2\Qualidade de Software\QualidadeDeSoftware\QualidadeDeSoftware\obj\Debug\net5.0\QualidadeDeSoftware.dll
+D:\joseeduardo\ruemmai\UFMA\2020.2\Qualidade de Software\QualidadeDeSoftware\QualidadeDeSoftware\obj\Debug\net5.0\ref\QualidadeDeSoftware.dll
+D:\joseeduardo\ruemmai\UFMA\2020.2\Qualidade de Software\QualidadeDeSoftware\QualidadeDeSoftware\obj\Debug\net5.0\QualidadeDeSoftware.pdb
+D:\joseeduardo\ruemmai\UFMA\2020.2\Qualidade de Software\QualidadeDeSoftware\QualidadeDeSoftware\obj\Debug\net5.0\QualidadeDeSoftware.genruntimeconfig.cache
