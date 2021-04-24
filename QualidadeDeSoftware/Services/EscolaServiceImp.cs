@@ -56,11 +56,7 @@ namespace QualidadeDeSoftware.Services
             }
 
             // Pega menor nota usando for loop
-            for (int i = 0; i < 3; i++)
-            {
-                notaCalc = (notas[i] == null) ? 0 : notas[i].Value;
-                mediaTresPrimeirasNotas += notaCalc / 3;
-            }
+            mediaTresPrimeirasNotas = await AlunoTurmaService.GetAlunoTurmaMedia(turmaId, alunoId);
 
             if (ordem == 4 && mediaTresPrimeirasNotas >= 7)
             {
