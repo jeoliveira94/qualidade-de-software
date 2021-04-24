@@ -46,12 +46,20 @@ namespace QualidadeDeSoftware.Services
             float? mediaTresPrimeirasNotas = 0F;
             float menorNota = 0F;
             float notaCalc;
+
+            // Pega menor nota
+            for (int i = 0; i < 3; i++)
+            {
+                notaCalc = (notas[i] == null) ? 0 : notas[i].Value;
+                if (menorNota > notaCalc)
+                    menorNota = notaCalc;
+            }
+
+            // Pega menor nota usando for loop
             for (int i = 0; i < 3; i++)
             {
                 notaCalc = (notas[i] == null) ? 0 : notas[i].Value;
                 mediaTresPrimeirasNotas += notaCalc / 3;
-                if (menorNota > notaCalc)
-                    menorNota = notaCalc;
             }
 
             if (ordem == 4 && mediaTresPrimeirasNotas >= 7)
