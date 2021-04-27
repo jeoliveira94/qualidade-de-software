@@ -68,6 +68,30 @@ namespace QualidadeDeSoftware
             }
 
             alunosTurma = await AlunoTurmaService.getAlunoTurmasByTurma(turma.Id) as List<AlunoTurma>;
+            Console.WriteLine("Imprimindo média do alunos\n\n");
+            Aluno aluno;
+            float?[] notas;
+            float media = 0F;
+            for (int i = 0; i < alunosTurma.Count; i++)
+            {
+                aluno = await AlunosService.GetAlunoById(alunosTurma[i].AlunoId);
+                notas = alunosTurma[i].Notas;
+                media = 0f;
+                Console.WriteLine(aluno.PrimeiroNome + " " + aluno.UltimoNome);
+                for (int j = 0; j < 3; j++)
+                {
+
+                    if(notas[j] != null)
+                    {
+                        media += notas[j].Value;
+                    }
+                    
+                }
+
+                Console.WriteLine($"\tMédia - {media / 3}");
+            }
+
+            alunosTurma = await AlunoTurmaService.getAlunoTurmasByTurma(turma.Id) as List<AlunoTurma>;
             alunosTurma = alunosTurma.FindAll(at => (at.Notas.Sum() / 3) < 7);
             if(alunosTurma.Count > 0)
             {
@@ -82,21 +106,17 @@ namespace QualidadeDeSoftware
 
             alunosTurma = await AlunoTurmaService.getAlunoTurmasByTurma(turma.Id) as List<AlunoTurma>;
             Console.WriteLine("Imprimindo notas do alunos");
-            Aluno aluno;
-            float?[] notas;
+
             for (int i = 0; i < alunosTurma.Count; i++)
             {
                 aluno = await AlunosService.GetAlunoById(alunosTurma[i].AlunoId);
                 notas = alunosTurma[i].Notas;
-                
+                media = 0f;
                 Console.WriteLine(aluno.PrimeiroNome + " " + aluno.UltimoNome);
-                Console.WriteLine($"Notas:");
-                for (int j = 0; j < notas.Length; j++)
-                {
 
-                    nota = (notas[j] == null ? 0 : notas[j].Value);
-                    Console.WriteLine($"\t{j}º - {nota}");
-                }
+                media = await AlunoTurmaService.GetAlunoTurmaMedia(alunosTurma[i].TurmaId, alunosTurma[i].AlunoId);
+
+                Console.WriteLine($"\tMédia - {media}");
             }
 
         }

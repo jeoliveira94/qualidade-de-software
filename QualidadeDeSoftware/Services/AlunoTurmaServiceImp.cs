@@ -2,6 +2,7 @@
 using QualidadeDeSoftware.Repositories;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -39,5 +40,22 @@ namespace QualidadeDeSoftware.Services
             return result;
         }
 
+        public async Task<float> GetAlunoTurmaMedia(string turmaId, string alunoId)
+        {
+            string id = $"T-{turmaId}--A-{alunoId}";
+            var item = await repository.GetItemAsync(id);
+            float? media;
+            if (item.Notas[3].HasValue)
+            {
+                media = (item.Notas.Sum() - item.Notas.Min()) / 3;
+            }
+            else
+            {
+                media = (item.Notas.Sum()) / 3;
+            }
+
+            if (media.HasValue) return media.Value; ;
+            return 0F;
+        }
     }
 }

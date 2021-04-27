@@ -12,7 +12,8 @@ namespace QualidadeDeSoftware.Services
         Task<AlunoTurma> SaveAlunoTurma(string turmamId, string alunoId);
         Task<AlunoTurma> UpdateAlunoTurma(AlunoTurma item);
         Task<IEnumerable<AlunoTurma>> getAlunoTurmasByTurma(string turmaId);
-        
+        Task<float> GetAlunoTurmaMedia(string turmamId, string alunoId);
+
 
     }
 }

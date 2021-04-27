@@ -98,3 +98,11 @@ D:\joseeduardo\ruemmai\UFMA\2020.2\Qualidade de Software\QualidadeDeSoftware\Tes
 D:\joseeduardo\ruemmai\UFMA\2020.2\Qualidade de Software\QualidadeDeSoftware\TestQualidadeDeSoftware\obj\Debug\net5.0\ref\TestQualidadeDeSoftware.dll
 D:\joseeduardo\ruemmai\UFMA\2020.2\Qualidade de Software\QualidadeDeSoftware\TestQualidadeDeSoftware\obj\Debug\net5.0\TestQualidadeDeSoftware.pdb
 D:\joseeduardo\ruemmai\UFMA\2020.2\Qualidade de Software\QualidadeDeSoftware\TestQualidadeDeSoftware\obj\Debug\net5.0\TestQualidadeDeSoftware.genruntimeconfig.cache
+D:\joseeduardo\ruemmai\UFMA\2020.2\Qualidade de Software\QualidadeDeSoftware\TestQualidadeDeSoftware\bin\Debug\net5.0\QualidadeDeSoftware.deps.json
+D:\joseeduardo\ruemmai\UFMA\2020.2\Qualidade de Software\QualidadeDeSoftware\TestQualidadeDeSoftware\bin\Debug\net5.0\QualidadeDeSoftware.runtimeconfig.json
+D:\joseeduardo\ruemmai\UFMA\2020.2\Qualidade de Software\QualidadeDeSoftware\TestQualidadeDeSoftware\bin\Debug\net5.0\QualidadeDeSoftware.runtimeconfig.dev.json
+D:\joseeduardo\ruemmai\UFMA\2020.2\Qualidade de Software\QualidadeDeSoftware\TestQualidadeDeSoftware\bin\Debug\net5.0\QualidadeDeSoftware.exe
+D:\joseeduardo\ruemmai\UFMA\2020.2\Qualidade de Software\QualidadeDeSoftware\TestQualidadeDeSoftware\bin\Debug\net5.0\QualidadeDeSoftware.dll
+D:\joseeduardo\ruemmai\UFMA\2020.2\Qualidade de Software\QualidadeDeSoftware\TestQualidadeDeSoftware\bin\Debug\net5.0\QualidadeDeSoftware.pdb
+D:\joseeduardo\ruemmai\UFMA\2020.2\Qualidade de Software\QualidadeDeSoftware\TestQualidadeDeSoftware\bin\Debug\net5.0\Castle.Core.dll
+D:\joseeduardo\ruemmai\UFMA\2020.2\Qualidade de Software\QualidadeDeSoftware\TestQualidadeDeSoftware\bin\Debug\net5.0\Moq.dll
